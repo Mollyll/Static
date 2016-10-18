@@ -1,0 +1,82 @@
+/* CSS Document */
+div,li{ padding:0; margin:0px;}
+.header{ height:119px; background:url(../images/jietu_01.jpg) no-repeat center; background-color:#f9f8ef;}
+
+.nav{ background-color:#8d7e78; }
+.center{ width:950px; height:30px;; margin:0 auto; overflow:hidden;}
+/*.center li{ background-color:#bb0000;}
+.center li a{ padding:0 20px; margin:0;}*/
+.nav li{ height:30px; float:left; list-style:none;}
+.nav li a{ height:30px; line-height:30px; color:#eaeedb; padding:0 20px;}
+.nav .center .current{ background-color:#bb0000; height:30px;}
+.nav li .new{ background-color:#bb0101; color:#FFFFFF; display:inline-block; width:16px; height:16px;}
+
+.search{ background-color:#e8e3db; overflow:hidden;}
+.search li{ height:30px; float:left; list-style:none; margin-left:20px; line-height:30px; color:#82726b;}
+.search li .hotwords{ margin-right:60px;}
+.search .hotwords span{  margin-left:130px;}
+.search li a{ line-height:30px; color:#82726b;}
+.search .searchbox input{ height:20px; float:left; border:1px solid #82726b; padding:0px; margin:4px 0px;}
+.searchbox span{ height:22px; float:left; width:38px; background:#82726b; margin:4px 0px; color:#dfd9d2; line-height:22px; font-weight:bold; text-align:center;}
+
+.ad{ background-color:#f9f8ef}
+.ad img{ margin:0 auto;}
+
+
+
+.container{ background:url(../images/wkt_3_02.jpg) repeat-y center; background-color:#f9f8ef; margin-bottom:17px;}
+.container .content{ width:950px; height:auto; }
+.container .content .predictor{ height:120px; background:url(../images/jietu_06.jpg) no-repeat center; margin-bottom:10px;}
+.container .content .temple{ height:490px; background:url(../images/jietu_03.png) no-repeat center; margin-bottom:10px;}
+.content .temple .mv{ width:490px; height:399px; background-color:#d9d0c7; position:relative; top:46px; left:28px;}
+
+/* 新品 */
+.container .content .newgoods{ height:auto; padding:3px 3px; border:1px solid #ac9485; background:url(../images/background_07.jpg) no-repeat center; margin-bottom:10px;}
+.container .content .newgood{ overflow:hidden; margin-top:16px}
+.content .newgood li{ height:328px; width:327px; border:1px solid #ac9485; padding:5px 5px 0px; margin-bottom:10px; margin-left:15px; float:left; list-style:none}
+.container .content img{ float:left;}
+.container .content .p1{ height:32px; float:left; padding-left:10px; font-size:14px; color:#4a3127; line-height:32px;}
+.container .content .p2{ height:32px; float:right; padding-right:10px; font-size:14px; font-weight:bold; line-height:32px}
+.container .content .pillow{ height:342px; width:942px; padding:3px 3px; border:1px solid #ac9485; background:url(../images/jietu_01_03.png) no-repeat center; margin-bottom:10px;}
+
+
+/* 热门产品*/
+.container .content .hotgoods{ height:1029px; width:942px; padding:3px 3px; margin:0px 0px 10px; border:1px solid #ac9485; background:url(../images/background_10.jpg) no-repeat center;}
+.hotgoods .hotgood{ overflow:hidden; margin-top:12px;}
+.content .hotgood li{ height:324px; width:327px; border:1px solid #ac9485; padding:5px 5px 0px; margin-bottom:10px; margin-right:15px; float:right; list-style:none; }
+.container .hotgood img{ float:right;}
+
+/* 月亮ci */
+.container .content .ilands{ height:342px; width:942px; padding:3px 3px; border:1px solid #ac9485; background:url(../images/jietu_14.jpg) no-repeat center; margin-bottom:10px;}
+
+/* 典藏圣品 */
+.container .content .collections{ height:911px; width:942px; padding:3px 3px; border:1px solid #ac9485; background:url(../images/background_12.jpg) no-repeat center; margin-bottom:10px;}
+.content .collections .collection{ height:auto; margin-top:19px; margin-left:12px; padding:3px; overflow:hidden; list-style:none;}
+.content .collection li{height:281px; width:223px; float:left; padding:3px; margin-right:5px; margin-bottom:5px; border:1px solid #ac9485;}
+.container .collection img{ float:none;}
+.container .content .p3{ height:27px; padding-left:10px; line-height:27px; width:223px; font-size:14px; color:#4a3127;}
+.container .content .p4{ height:27px; padding-left:10px; line-height:27px; width:223px; font-size:14px; font-weight:bold; color:#4a3127;}
+
+/* 太极 */
+.container .content .taiji{ height:344px; width:942px; padding:3px 3px; border:1px solid #ac9485; background:url(../images/A-维客淘-首页_20_03.png) no-repeat center; margin-bottom:10px;}
+
+/* 藏 */
+.container .content .cang{ height:326px; width:942px; padding:3px 3px; border:1px solid #ac9485; background:url(../images/images/weiket-0_03.png) no-repeat center; margin-bottom:10px; padding-top:18px;}
+.content .cang .cangcenter{ width:892px; overflow:hidden; margin-bottom:22px; margin:0 auto;}
+.content .cangcenter .cangtitle{ height:115px; width:36px; margin-top:8px; margin-right:21px; border:1px solid #ac9485; float:left; padding:3px; background-color:#ac9485; font-size:22px; text-align:center; line-height:28px; color:#ffffff}
+.content .cangcenter .cangtext{ width:826px; height:150px;}
+.content .cangtext li{ height:36px; border-bottom:1px dashed #ac9485; overflow:hidden;}
+.content li dl{ height:14px; margin-top:13px; line-height:14px;}
+.content li dt{ float:left; font-family:"微软雅黑"; font-weight:bolder; font-size:14px }
+.content li dd{ float:left;padding:0px 3px; border-right:1px solid #ac9485; font-size:12px; font-family:"华文楷体"; }
+/*.content .cangcenter .cangtitle1{ height:115px; width:37px; margin-top:8px; margin-right:21px; border:1px solid #ac9485; float:left; padding:3px; background-color:#ac9485; font-size:22px; text-align:center; line-height:28px; color:#ffffff}*/
+.content .dd1{ border-right:0px; height:19px; line-height:19px; margin-right:0px; padding-right:0px;}
+.content li span a{ cursor:pointer;}
+.content li span img{ display:inline-block; height:19px; width:18px; float:left; margin-right:10px; margin-left:15px;}
+
+
+
+/* 静 */
+.container .content .jing{ height:359px; width:942px; padding:3px 3px; border:1px solid #ac9485; background:url(../images/background_16.png) no-repeat center; margin-bottom:10px;}
+.content .jing .jingtext{ float:right; margin-right:249px; list-style:none; margin-top:70px; overflow:hidden; font-size:12px;}
+.content .jing li{ width:13px; height:228px; margin-right:16px; line-height:10px;float:left; line-height:13px; font-family:"华文楷体";}

@@ -1,0 +1,70 @@
+/* CSS Document */
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td,dl, dt, dd
+{
+    margin: 0;
+    padding: 0;
+    font-size:14px;/*浏览器默认字体是12px，12px以下不要尝试，会有浏览器兼容问题*/
+    font-weight:normal;
+    font-family:"Microsoft Yahei",arial;
+}
+ul li,ol li
+{
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+a{text-decoration:none; color:#666; padding:0; margin:0;}
+img{ display:block; border:none;}
+
+.dt_3{ width:192px; line-height:20px; font-size:18px; float:left;}
+.bt_1{ display:inline-block; height:12px; line-height:12px; font-size:12px; color:#f3f3f3; padding-left:10px; margin-top:28px;}
+
+/*评价文本*/
+.pj_text{ width:496px; margin:29px 0 6px 0; font-size:12px; line-height:21px; display:inline-block; float:left;}
+
+/*评价照片*/
+.con3_p1_1_2{ width:80px; height:70px; float:left; border:1px solid #dddddd; padding-top:10px; margin-right:5px;}
+.con3_p1_1_3{ width:80px; height:80px; float:left; border:1px solid #dddddd; margin-right:5px;}
+
+/* 回复 赞 */
+.con3_p1{ width:70px; height:62px; padding-left:10px;}
+.con3_p2{ height:18px; width:80px; line-height:18px; font-size:12px; color:#fff; text-align:center; background-color:#333333; margin-right:5px;}
+.con3_p3{ width:58px; height:12px; margin-top:22px; line-height:12px; font-size:12px; margin-left:4px; float:left; text-align:center;}
+.con3_p4{ width:84px; height:12px; margin-top:22px; line-height:12px; font-size:12px; float:left; text-align:center;}
+.con3_p5{ width:70px; height:80px; float:left; padding-left:10px; margin-right:5px;}
+.con3_p6{ height:12px; float:left; margin-top:40px; line-height:12px; font-size:12px; color:#2272c7; margin-bottom:34px;}
+.con3_p7{ width:80px; padding-top:10px; height:52px;}
+.con3_p7 img{ height:52px; width:80px; overflow:hidden;}
+.con3_p8{ margin-top:11px;}
+
+/*查看更多*/
+.a_more{ height:12px; float:left; margin-top:40px; line-height:12px; font-size:12px; color:#2272c7; margin-bottom:34px;}
+.a_5{ height:50px; width:955px; line-height:50px; font-size:12px;text-align:center; float:left; color:#005ac6; cursor:pointer;}
+.a_5 a{ color:#005ac6;}
+
+/* 评价星星 */
+.con3_star1{ display:inline-block; width:14px; height:12px; background:url(../../images-content/star_03.png) no-repeat center; margin-top:40px;}
+.con3_star2{ display:inline-block; width:14px; height:12px; margin-top:40px; background:url(../../images-content/star_05.png) no-repeat center;}
+/*手机类型*/
+.con3_pjphone{ width:157px; height:228px;}
+.con3_pjphone li{ height:19px; line-height:19px; font-size:12px;}
+
+.a_4{ width:154px; height:14px; font-size:12px; line-height:12px;}
+.a_4 img{ display:inline-block; margin-right:8px;}
+.p_1{ heihgt:28px; line-height:28px; font-size:12px;}
+.p_2{ height:29px; line-height:29px; font-size:12px; padding:0 8px 0 0; display:inline-block;}
+
+.current3{ color:#ccc;}
+.a_7{ display:inline-block; height:30px; line-height:30px; font-size:12px; padding:0 15px; border-right:1px solid #ccc;}
+.a_8{ display:inline-block; height:22px; width:48px; border:1px solid #bed6af; background-color:#f4fbef; line-height:22px; font-size:12px; text-align:center;}
+.a_9{ display:inline-block; height:32px; padding:0 15px; line-height:32px;}
+.current4{ border-top:1px solid #e4393c; background:#fff; height:30px;}
+.current5{ position:relative; top:-1px; height:32px; border-right:1px solid #ccc; border-top:2px solid #e4393c; background-color:#fff;}
+
+
+
+
+
+
+
+

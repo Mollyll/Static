@@ -1,0 +1,75 @@
+/* CSS Document */
+.home{ height: 600px; width: 1440px; background: url(../images/bj1.jpg) no-repeat center; margin:0 auto;}
+.header{ height: 113px; width: 1440px; margin: 0 auto; border-bottom: 1px solid #590400;}
+.header .header_top{ height: 113px; width: 950px; margin: 0 auto; overflow: hidden;}
+.header .span1{ display: inline-block; height: 113px; width: 61px; float: left;}
+.header .span img{ display: inline-block;}
+.header .top_text{ float: left; font-size: large; height: 113px; width: 216px; padding: 24px 0 17px; margin-left: 12px;}
+
+.header .top_samp1{ height: 113px; width: 70px; float: left;  margin-left: 176px;}
+.header .top_samp1 img{ margin: 28px auto 0;}
+.header .top_samp2{ height: 113px; width: 78px; float: left; margin-left: 13px;}
+.header .top_samp2 img{ margin-top: 28px ;}
+.header .top_samp3{ height: 113px; width: 70px; float: left; margin-left: 23px; }
+.header .top_samp3 img{ margin: 24px auto 0; }
+
+.header .img1{ float: right; margin: 7px 11px 4px 6px; }
+
+.container{ height: 486px; width: 1440px; margin: 0 auto; }
+.container .container_top{ width: 927px; height: 30px; background-color: #e2be7f; opacity:0.8; margin: 0 auto; padding-left: 23px;}
+.container .tihuo1{ width: 200px; }
+.container .tihuo2{ width: 200px; }
+.container .tihuo3{ width: 180px; }
+.container .tihuo4{ width: 220px; }
+.container .tihuo5{ width: 110px; }
+
+.container .container_bottom{ width: 950px; height: 456px; margin: 0 auto; }
+
+
+
+.container .left{ height: 506px; width: 476px; float: left; padding: 4px 0 30px 30px; }
+.container .know1{ height: 86px; width: 435px; border-bottom: 1px solid #fff; }
+.container .know2{ padding-top: 12px; height: 70px; }
+.container .know3{ height: 53px; padding-top: 12px; }
+.container .know4{ height: 31px; padding-top: 12px; }
+.container .know5{ height: 50px; padding-top: 12px; }
+
+
+.container input.bianhao1{ height: 25px; width: 130px; border: 1px solid #421e0e; background-color: #fee1e3; opacity: 0.6;}
+.container .left1{ width: 572px; padding-left: none;}
+.container .bianhao2{ width: 103px; }
+.container .bianhao3{ float: left; height: 26px; width: 76px; display: inline-block; margin-top: 56px; margin-left: 192px; 
+	font-size: 18px; font-family: "华文隶书"; text-align: center; opacity: 0.6}
+.container .bianhao4{ float: left; height: 26px; width: 76px; display: inline-block; margin-top: 56px; margin-left: 52px; 
+	font-size: 18px; font-family: "华文隶书"; text-align: center; opacity: 0.6 }
+.container .bianhao5{ height: 25px; width: 76px; display: inline-block; border: 1px solid #421e0e; background-color: #fee1e3; opacity: 0.6;}
+.container .bianhao6{ float: left; height: 26px; width:76px; margin-top: 56px; margin-left: 149px; display: inline-block; 
+font-size: 18px; font-family: "华文隶书"; text-align: center; opacity: 0.6 }
+.container .bianhao7{ margin-left: 52px; margin-right: 100px; }
+
+
+
+
+
+.top1{ margin-top: 18px; }
+.container .qita1{ height: 72px; margin-top: 35px; }
+.container .img4{ display: inline-block; height: 54px; width: 54px; float: left; margin: 10px 15px 0 12px;}
+.container .qita2{margin-top: 10px;}
+.container .qita3{ margin-top: 10px; }
+.container .buzhou1{ height: 65px; width: 423px; margin-top: 40px; margin-left: 38px; border-bottom: 1px solid #fff;}
+.container .span3{ height: 39px; width: 39px; margin: 12px 14px 0 9px; float: left;}
+.container .buzhou2{ margin-top: 0; }
+
+
+
+/*------------------------------------------------------------------------------*/
+
+
+
+
+/*---------------------------------其他提货方式---------------------------------*/
+
+.container .container_bottom .center{ width: 84px; height: 456px; float: left; }
+.container .img2{ margin: 62px 0 0 12px; display: inline-block; float: left;}
+.container .right{ width: 340px; height: 456px; float: right; }
+.container .img3{ display: inline-block; margin: 6px 0 0 12px; }
